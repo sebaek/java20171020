@@ -1,7 +1,7 @@
 
 public class OperatorEx {
 	public static void main(String[] args) {
-		// 산술연산자
+		// 산술연산자...
 		System.out.println(2.1 + 3.1);
 		System.out.println(5.3 - 3.3);
 		System.out.println(5.1 * 3.7);
