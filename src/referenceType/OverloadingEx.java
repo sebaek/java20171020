@@ -8,7 +8,7 @@ public class OverloadingEx {
 		myObject.print("갤럭시");
 		myObject.print('c');
 		myObject.print(1, 2);
-		myObject.print(1, 2, 3);
+		myObject.print(1, 2, 3); 
 		myObject.print(1, 2, 3, 4);
 		
 		int sum = myObject.sum(1, 2, 3,4, 5,6, 7, 8, 9, 10);
