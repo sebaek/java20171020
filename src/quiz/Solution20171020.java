@@ -1,3 +1,4 @@
+package quiz;
 /*
 1
 # # # # #
