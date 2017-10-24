@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class MyMainMap {
 	public static void main(String[] args) {
-		Map map  = new HashMap();
+		Map<String, Object> map  = new HashMap<>();
 		
 		map.put("첫번째", 3);
 		map.put("두번째", 3);
@@ -21,6 +21,10 @@ public class MyMainMap {
 		Iterator iterator = set.iterator();
 		while (iterator.hasNext()) {
 			System.out.println(map.get(iterator.next()));
+		}
+		
+		for (String key : map.keySet()) {
+			System.out.println(map.get(key));
 		}
 		
 		map.remove("세번째");
